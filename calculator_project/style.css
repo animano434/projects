@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+
+}
+
+body {
+    background-image: url('blue-blank-notepad-with-copy-space.jpg');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    word-wrap: wrap;
+font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.heading {
+   text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(36, 155, 161);
+}
+
+.input {
+    height: 40vmin;
+    width: 60vmin;
+    margin: 5px 5px;
+
+}
+
+
+main {
+
+
+    width: 90%;
+   max-width:500px;
+    background-color: rgba(255, 255, 255, 0.85);
+
+    padding:2rem;
+    box-shadow: 0 0 34px rgb(4, 39, 67);
+border-radius:1rem;
+}
+
+.hide {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(4, 39, 67, 0.3);
+}
+
+#btn {
+   
+    padding: 12px;
+    width: 100%;
+  font-weight:bold;
+  
+    border-radius:0.5rem;
+    /* box-shadow: 0 0 34px rgb(4, 39, 67); */
+    background-color: rgb(0, 157, 255);
+    color:white;
+    border: none;
+    cursor:pointer;
+      transition: background-color 0.3s ease;
+}
+#btn:hover {
+    background-color: rgb(0, 120, 200);
+}
+.box {
+
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(4, 39, 67, 0.5);
+}
+
+/* .display {
+    display: inline;
+} */
+@media (max-width: 500px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    input, #btn {
+        font-size: 1rem;
+    }
+}
